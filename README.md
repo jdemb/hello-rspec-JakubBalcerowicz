@@ -1,2 +1,3 @@
-# hello-rspec-JakubBalcerowicz
-hello-rspec-JakubBalcerowicz created by GitHub Classroom
+# Laboratorium z Testowania aplikacji Ruby
+
+Wykład i laboratorium: dr Włodzimierz Bzyl
