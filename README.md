@@ -1,5 +1,5 @@
 # Laboratorium z Testowania aplikacji Ruby 2017/2018
-# Jakub Balcerowicz 238153
+## Jakub Balcerowicz 238153
 
 Wykład i laboratorium: dr Włodzimierz Bzyl
 
