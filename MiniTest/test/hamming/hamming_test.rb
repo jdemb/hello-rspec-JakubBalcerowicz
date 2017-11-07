@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'hamming'
+require_relative '../../lib/hamming'
 
 # Common test data version: 2.0.0 a2aff5b
 class HammingTest < Minitest::Test
