@@ -5,7 +5,6 @@ Wykład i laboratorium: dr Włodzimierz Bzyl
 [CodeQuizzes](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/CodeQuizzes)
 
 [MiniTest](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/MiniTest)
-
-*  [hello-world](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/MiniTest/test/hello-wrold)
-*
-*
+* [hello-world](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/MiniTest/test/hello-wrold)
+* [gigasecond](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/MiniTest/test/gigasecond)
+* [hamming](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/MiniTest/test/hamming)
