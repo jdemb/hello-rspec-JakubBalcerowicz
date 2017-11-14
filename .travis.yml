@@ -5,4 +5,8 @@ script:
   - bundle install
   - bundle exec rspec CodeQuizzes -fd
   - bundle exec rspec MiniTest -fd
+<<<<<<< HEAD
   - bundle exec rspec insert_sort -fds
+=======
+  - bundle exec rspec Matrix -fd
+>>>>>>> f2b0976e60f6514ce7a6b075a809c3a377220a9e

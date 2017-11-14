@@ -1,6 +1,6 @@
-require "q_1_1"
+require_relative '../lib/q_1_1'
 
-describe "#word_count" do
+RSpec.describe '../lib/q_1_1.rb' do
   it "returns number of words in a string" do
     string = "laughter, it's free"
     expect(word_count(string)).to eq 3
