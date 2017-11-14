@@ -1,6 +1,6 @@
-require "q_1_2"
+require_relative '../lib/q_1_2'
 
-describe "#average_word_length" do
+RSpec.describe '../lib/q_1_2.rb' do
   it "returns average word length" do
     string = "i wish that i was cool"
     expect(average_word_length(string)).to be_within(0.01).of 2.83

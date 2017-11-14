@@ -1,6 +1,6 @@
-require 'q_1_10'
+require_relative '../lib/q_1_10'
 
-describe "#parse_params" do
+RSpec.describe '../lib/q_1_10.rb' do
   it "converts url query parameters to a Hash" do
     url = "https://something.com?days_ago=1000&sort_by=value"
     expected = {"days_ago"=>"1000", "sort_by"=>"value"}

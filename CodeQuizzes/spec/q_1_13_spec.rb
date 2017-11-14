@@ -1,6 +1,6 @@
-require 'q_1_13'
+require_relative '../lib/q_1_13'
 
-describe "#to_money" do
+RSpec.describe '../lib/q_1_13.rb' do
   it "converts float to money format" do
     expect(12.991.to_money).to eq '$12.99'
   end

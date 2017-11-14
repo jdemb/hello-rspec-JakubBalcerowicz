@@ -1,6 +1,6 @@
-require 'q_1_12'
+require_relative '../lib/q_1_12'
 
-describe "#alliteration?" do
+RSpec.describe '../lib/q_1_12.rb' do
   it "returns true if words start with same letter" do
     words = "crazy cows consume crack"
     expect(words.alliteration?).to be true

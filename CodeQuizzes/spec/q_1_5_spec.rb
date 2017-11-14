@@ -1,6 +1,6 @@
-require "q_1_5"
+require_relative '../lib/q_1_5'
 
-describe "#start_with_c?" do
+RSpec.describe '../lib/q_1_5.rb' do
   it "returns true if all words begin with 'c'" do
     str = "cool captain crunch cap"
     expect(start_with_c?(str)).to be true

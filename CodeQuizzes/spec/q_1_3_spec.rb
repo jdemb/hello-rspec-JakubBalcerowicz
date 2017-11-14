@@ -1,6 +1,6 @@
-require "q_1_3"
+require_relative '../lib/q_1_3'
 
-describe "#palindrome?" do
+RSpec.describe '../lib/q_1_3.rb' do
   it "returns true if string is a palindrome" do
     expect("racecar".palindrome?).to be true
   end

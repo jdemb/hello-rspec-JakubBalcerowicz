@@ -1,6 +1,6 @@
-require "q_1_8"
+require_relative '../lib/q_1_8'
 
-describe "#delete_last" do
+RSpec.describe '../lib/q_1_8.rb' do
   it "removes last n elements from string" do
     str = "hello"
     expect(str.delete_last(2)).to eq "hel"

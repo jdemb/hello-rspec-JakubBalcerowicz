@@ -1,6 +1,6 @@
-require 'q_1_6'
+require_relative '../lib/q_1_6'
 
-describe "#strip_whitespace" do
+RSpec.describe '../lib/q_1_6.rb' do
   it "removes all whitespace" do
     str = "   three ninjas attack!  "
     expected = "threeninjasattack!"

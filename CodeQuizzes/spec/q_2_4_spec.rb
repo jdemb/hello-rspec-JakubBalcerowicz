@@ -1,6 +1,6 @@
-require 'q_2_4'
+require_relative '../lib/q_2_4'
 
-describe "#unzip" do
+RSpec.describe '../lib/q_2_4.rb' do
   it "deconstructs nested array" do
     nums = [1, 2, 3]
     lets = %w|a b c|

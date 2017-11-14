@@ -1,6 +1,6 @@
-require 'q_2_6'
+require_relative '../lib/q_2_6'
 
-describe "#super_compact" do
+RSpec.describe '../lib/q_2_6.rb' do
   it "removes nil and empty elements" do
     arr = [:bob, "", nil, [], "joe"]
     expected = [:bob, "joe"]

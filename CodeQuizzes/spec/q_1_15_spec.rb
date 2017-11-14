@@ -1,6 +1,6 @@
-require 'q_1_15'
+require_relative '../lib/q_1_15'
 
-describe "#concat" do
+RSpec.describe '../lib/q_1_15.rb' do
   it "concatenates two integers" do
     expect(42.concat(99)).to eq 4299
   end

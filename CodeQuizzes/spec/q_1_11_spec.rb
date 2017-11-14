@@ -1,6 +1,6 @@
-require 'q_1_11'
+require_relative '../lib/q_1_11'
 
-describe "#acronym?" do
+RSpec.describe '../lib/q_1_11.rb' do
   it "returns true if word is an acronym" do
     words = "what you see is what you get"
     expect(words.acronym?("wysiwyg")).to be true

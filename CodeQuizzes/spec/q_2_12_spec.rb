@@ -1,6 +1,6 @@
-require 'q_2_12'
+require_relative '../lib/q_2_12'
 
-describe "#merge" do
+RSpec.describe '../lib/q_2_12.rb' do
   it "converts array of hashes to a hash" do
     arr = [
       { a: 1, b: 2 },

@@ -1,6 +1,6 @@
-require 'q_2_1'
+require_relative '../lib/q_2_1'
 
-describe "#has_string?" do
+RSpec.describe '../lib/q_2_1.rb' do
   it "returns true if self has a string" do
     arr = [:bob, "the", 42]
     expect(arr.has_string?).to eq true

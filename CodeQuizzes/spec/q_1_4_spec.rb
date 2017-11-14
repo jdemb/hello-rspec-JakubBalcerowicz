@@ -1,6 +1,6 @@
-require "q_1_4"
+require_relative '../lib/q_1_4'
 
-describe "#vowels" do
+RSpec.describe '../lib/q_1_4.rb' do
   it "returns array of words with vowels" do
     str = "24 hour roadside resistance"
     expected = %w|hour roadside resistance|

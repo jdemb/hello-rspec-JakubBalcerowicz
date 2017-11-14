@@ -1,6 +1,6 @@
-require 'q_1_9'
+require_relative '../lib/q_1_9'
 
-describe "#date_convertible?" do
+RSpec.describe '../lib/q_1_9.rb' do
   it "returns true if can be converted to date" do
     str = "20120120"
     expect(str.date_convertible?).to be true

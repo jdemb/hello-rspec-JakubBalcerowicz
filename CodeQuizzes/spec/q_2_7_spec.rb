@@ -1,6 +1,6 @@
-require 'q_2_7'
+require_relative '../lib/q_2_7'
 
-describe "#tight_zip" do
+RSpec.describe '../lib/q_2_7.rb' do
   it "zips arrays of unequal length" do
     a = [1, 2, 3, 4]
     b = %w|a b|

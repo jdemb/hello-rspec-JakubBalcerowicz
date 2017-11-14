@@ -1,6 +1,6 @@
-require 'q_1_16'
-#HARD MODE, TO DO
-describe "#insert_multiple" do
+require_relative '../lib/q_1_16'
+
+RSpec.describe '../lib/q_1_16.rb' do
   it "inserts multiple strings" do
     input = { 3=>"<b>", 6=>"</b>" }
     str = "aaabbbccc"

@@ -1,6 +1,6 @@
-require 'q_2_5'
+require_relative '../lib/q_2_5'
 
-describe "#hashify" do
+RSpec.describe '../lib/q_2_5.rb' do
   it "converts to hash" do
     arr = [:a, :b, :c, :d]
     expected = {a: :b, c: :d}
