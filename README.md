@@ -4,6 +4,8 @@
 
 Wykład i laboratorium: dr Włodzimierz Bzyl
 
+[![Build Status](https://travis-ci.org/my-rspec/hello-rspec-JakubBalcerowicz.svg?branch=master)](https://travis-ci.org/my-rspec/hello-rspec-JakubBalcerowicz) |
+
 [CodeQuizzes](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/CodeQuizzes)
 >* [lib](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/CodeQuizzes/lib)
 >* [spec](https://github.com/my-rspec/hello-rspec-JakubBalcerowicz/tree/master/CodeQuizzes/spec)
